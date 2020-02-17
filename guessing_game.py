@@ -35,6 +35,8 @@ def game_initiation(RANGE_OF_TRIES, a_list_of_numbers_to_guess, guess, max_range
                 print("guess is high")
             else:
                 break
+            # if next number is the same we have to change it
+            guess = 0
         print("you guessed it!")
 
 
